@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>solution assignment 2</title>
-	<style>
-	/**********base styling***********/
+	<title>Hello Coursera!</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	/********** Base styles **********/
 
-*
-{
 
-	box-sizing:border-box;
-	margin:0px;
-	padding:0px;
-}
-h1
-{
-	text-align:center;
-	font-family:aerial;
-	text-transform: capitalize;
-	margin-top:20px;
-	margin-bottom:20px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: Helvatica,Arial, sans-serif;
+
 }
 
+h1 {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 175%;
+
+
+}
+
+section {
+
+	position: relative;
+	border: 1px solid black;
+	margin: 1.65%;
+	padding: 45px;
+	background-color: grey;
+	padding: 50px;
 	
-h2
-{
+
+}
+
+
+h2{	
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -34,37 +48,25 @@ h2
 	font-size: 125%
 }
 
+p{
 
-p
-{
 	margin-right: auto;
   	margin-left: auto;	
   	font-size: 100%
-	
+
 }
-section
-{
-	position:relative;
-	border: 1px solid black;
-	margin: 1.65%;
-	padding: 45px;
-	background-color: gray;
-	padding: 50px;
-	
+
+#apple{
+	background-color: lightblue;
 }
-#box1
-{
+#banana{
 	background-color: lightpink;
 }
-#box2
-{
-	background-color: maroon;
+#coconut{
+	background-color: lightyellow;	
 }
-#box3
-{
-	background-color:lightyellow;
-}
-/**********for large devices************/
+
+/********** Desktop Version **********/
 @media (min-width: 992px) {
   .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
     float: left;
@@ -199,28 +201,24 @@ section
   .col-mb-12 {
     width: 96.5%;
   }
- 
-
+}
 </style>
-</head>
-<body>
-<h1>our menu</h1>
+<h1>Our Menu </h1>	
 
 <section class="col-dt-4 col-tb-6 col-mb-12">
-		<h2 id="box1">chicken</h2>
-		<p>this is a dummy textSachin Ramesh Tendulkar (/ˌsʌtʃɪn tɛnˈduːlkər/ (About this soundlisten); born 24 April 1973) is a former international cricketer from India and a former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[5] </p>
-		</section>
-		<section class="col-dt-4 col-tb-6 col-mb-12">
-			<h2 id="box2">beef</h2>
-			<p>
-				Sachin Ramesh Tendulkar (/ˌsʌtʃɪn tɛnˈduːlkər/ (About this soundlisten); born 24 April 1973) is a former international cricketer from India and a former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[5] </p>
-		</section>
-		<section class="col-dt-4 col-tb-12 col-mb-12">
-			<h2 id="box3">sushi</h2>
-			<p>
-				Sachin Ramesh Tendulkar (/ˌsʌtʃɪn tɛnˈduːlkər/ (About this soundlisten); born 24 April 1973) is a former international cricketer from India and a former captain of the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[5] </p>
-		</section>
+	<h2 id="apple">Chicken</h2>
+	<p>Put life in perspective with some short yet sage pieces of advice. These wise and beautiful words from your favorite positive thinkers will get you in the right mindset to tackle whatever obstacles lie ahead. Inspirational quotes from successful people like Oprah, Helen Keller, and Maya Angelou can help you reframe negative thoughts during tough times . </p>
+</section>
+     
+<section class="col-dt-4 col-tb-6 col-mb-12">
+	<h2 id="banana">Beef</h2>
+	<p>Put life in perspective with some short yet sage pieces of advice. These wise and beautiful words from your favorite positive thinkers will get you in the right mindset to tackle whatever obstacles lie ahead. Inspirational quotes from successful people like Oprah, Helen Keller, and Maya Angelou can help you reframe negative thoughts during tough times . </p>
+</section>
 
+<section class="col-dt-4 col-tb-12 col-mb-12">
+	<h2 id="coconut">Sushi</h2>
+	<p>Put life in perspective with some short yet sage pieces of advice. These wise and beautiful words from your favorite positive thinkers will get you in the right mindset to tackle whatever obstacles lie ahead. Inspirational quotes from successful people like Oprah, Helen Keller, and Maya Angelou can help you reframe negative thoughts during tough times . </p>
+</section>
 
 
 </body>
